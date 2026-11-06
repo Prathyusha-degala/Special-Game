@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffe6e6;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.game-container {
+    text-align: center;
+    background: white;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #ff4d4d;
+    margin-bottom: 30px;
+}
+
+.btn-group {
+    position: relative;
+    height: 60px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+button {
+    padding: 12px 35px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.1s ease;
+}
+
+#yesBtn {
+    background-color: #4cd137;
+    color: white;
+    position: absolute;
+    left: 20px;
+}
+
+#noBtn {
+    background-color: #ff4d4d;
+    color: white;
+    position: absolute;
+    right: 20px;
+}
